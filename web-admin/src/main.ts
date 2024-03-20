@@ -4,6 +4,7 @@ import App from './App.vue'
 import { setupStore } from './store'
 import { setupFormCreate } from './plugins/formCreate'
 import router, { setupRouter } from './router'
+import 'virtual:uno.css'
 
 const app = createApp(App)
 
